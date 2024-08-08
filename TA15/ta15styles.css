@@ -6,38 +6,37 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-  font-size: 22px; /*Agrego esto*/
+}
+
+.para { /*Intercambio .para y .small-para de lugar*/
+  font-size: 22px;
 }
 
 .small-para {
   font-size: 14px;
-  /*font-weight: bolder;*/
+  font-weight: 800;
 }
 
-/*.para {
-  font-size: 22px;
-}*/
-
-.button, /* Intercambio con .confirm y agrego el .cancel*/
-.cancel {
- background-color: rgb(255, 255, 255);
- color: rgb(0, 0, 0);
- font-size: 20px;
+.button,
+ .cancel{ /*Intercambio .button y .confirm de lugar y agrego el selector .cancel*/
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
-.confirm {
+ .confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-/*div*/.text { /*Intercambio el orden con .child y qui*/
+/*div*/.text { /*Intercambio .text y .child de lugar*/
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
 
-.child {
+ .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
